@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B2B Seeds, Nuts, and Dry Fruits</title>
+    <link rel="stylesheet" href="web.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Nature's Bulk Supply</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#collaborate">Collaborate</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="banner">
+        <h2>Welcome to Nature's Bulk Supply</h2>
+        <p>Your trusted partner in bulk supply of seeds, nuts, and dry fruits.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We specialize in providing high-quality seeds, nuts, and dry fruits in bulk to businesses. Our mission is to deliver the best products at competitive prices, ensuring customer satisfaction.</p>
+    </section>
+
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product-grid">
+            <div class="product" onclick="showDetails('seeds')">
+                <h3>Seeds</h3>
+                <p>High-quality seeds for various purposes.</p>
+            </div>
+            <div class="product" onclick="showDetails('nuts')">
+                <h3>Nuts</h3>
+                <p>Wide range of premium nuts.</p>
+            </div>
+            <div class="product" onclick="showDetails('dryfruits')">
+                <h3>Dry Fruits</h3>
+                <p>Best quality dry fruits in bulk.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="product-details" style="display: none;">
+        <h2 id="product-title"></h2>
+        <div id="product-content"></div>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>We provide bulk supply services for seeds, nuts, and dry fruits. Our services include packaging, logistics, and custom orders to suit your business needs.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <section id="collaborate">
+        <h2>Collaborate With Us</h2>
+        <p>If you're interested in collaborating with us, please reach out. We're always looking for new opportunities to grow and expand our business.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Nature's Bulk Supply. All Rights Reserved.</p>
+    </footer>
+
+    <script src="web.js"></script>
+</body>
+</html>
